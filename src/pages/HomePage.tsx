@@ -15,7 +15,7 @@ export default function HomePage() {
           <HeroOverlay
       tag="Nashville's Premier Chauffeur"
       title="Where Exceptional Driving Meets Luxury"
-      description="Experience the pinnacle of black car service. Safin provides unmatched reliability, discretion, and comfort in every mile."
+      description="Experience the pinnacle of black car service. Broadway Black Cars provides unmatched reliability, discretion, and comfort in every mile."
       primaryButton={{
         text: "Reserve Your Ride",
         href: "#contact",
@@ -32,9 +32,9 @@ export default function HomePage() {
   <div id="about" data-section="about">
     <SectionErrorBoundary name="about">
           <AboutTextSplit
-      title="The Safin Standard"
+      title="The Broadway Black Cars Standard"
       descriptions={[
-        "Safin brings a bespoke touch to Nashville transportation. With a background in elite service, every journey is curated for maximum comfort and complete punctuality.",
+        "Broadway Black Cars brings a bespoke touch to Nashville transportation. With a background in elite service, every journey is curated for maximum comfort and complete punctuality.",
         "Forget ride-share unpredictability. You are guaranteed a pristine vehicle, a professional driver, and a seamless travel experience designed for the discerning individual.",
       ]}
     />
@@ -142,7 +142,7 @@ export default function HomePage() {
         {
           name: "James Henderson",
           role: "CEO, TechCorp",
-          quote: "Safin has transformed my commute. It's not just a ride; it's a calm moment in a busy schedule.",
+          quote: "Broadway Black Cars has transformed my commute. It's not just a ride; it's a calm moment in a busy schedule.",
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-adult-businesswoman-smiling_23-2148452640.jpg",
         },
         {
@@ -160,7 +160,7 @@ export default function HomePage() {
         {
           name: "Sarah Jenkins",
           role: "Design Director",
-          quote: "Safin is always on time, polite, and the car is pristine every single time.",
+          quote: "Broadway Black Cars is always on time, polite, and the car is pristine every single time.",
           imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg",
         },
         {
@@ -178,9 +178,9 @@ export default function HomePage() {
     <SectionErrorBoundary name="contact">
           <ContactCta
       tag="Book Your Chauffeur"
-      text="Secure your private luxury car today. Experience the Safin difference."
+      text="Secure your private luxury car today. Experience the Broadway Black Cars difference."
       primaryButton={{
-        text: "Text Safin Now",
+        text: "Text Broadway Black Cars Now",
         href: "sms:+16155550123",
       }}
       secondaryButton={{
