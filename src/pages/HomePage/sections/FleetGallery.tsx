@@ -32,7 +32,7 @@ export default function FleetGallery() {
             <Tag text="Our Fleet" className="mb-4" />
           </ScrollReveal>
           <TextAnimation
-            text="2025 Chevy Suburban"
+            text="2025 Cadillac Escalade & Chevy Suburban"
             variant="fade-blur"
             tag="h2"
             className="text-4xl md:text-5xl font-bold text-foreground mb-6"
@@ -40,12 +40,19 @@ export default function FleetGallery() {
           />
           <ScrollReveal variant="fade" delay={0.2}>
             <p className="text-lg text-accent max-w-2xl mx-auto">
-              Experience the ultimate in luxury and space with our brand new 2025 Black Chevy Suburban. Perfect for executive travel, airport transfers, and group transportation.
+              Experience the ultimate in luxury and space with our brand new 2025 Black Cadillac Escalade and Chevy Suburban. Perfect for executive travel, airport transfers, and group transportation.
             </p>
           </ScrollReveal>
         </div>
 
-
+        <ScrollReveal variant="slide-up" delay={0.3}>
+          <div className="w-full rounded-lg overflow-hidden shadow-2xl">
+            <ImageOrVideo 
+              imageSrc="https://picsum.photos/seed/48505342/1200/800" 
+              className="w-full h-[600px] object-cover" 
+            />
+          </div>
+        </ScrollReveal>
       </div>
     </section>
   );
