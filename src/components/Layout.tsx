@@ -5,6 +5,7 @@ import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Instagram, Twitter } from "lucide-react";
 import { Outlet } from 'react-router-dom';
 import { StyleProvider } from "@/components/ui/StyleProvider";
+import Button from "@/components/ui/Button";
 
 export default function Layout() {
   const navItems = [
@@ -54,6 +55,9 @@ export default function Layout() {
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
+        <div className="flex justify-center w-full py-8 bg-background">
+          <Button text="Text Broadway Black Cars Now" href="sms:6153392522" variant="primary" />
+        </div>
         <FooterMinimal
       brand="Broadway Black Cars"
       copyright="© 2024 Broadway Black Cars. All rights reserved."
