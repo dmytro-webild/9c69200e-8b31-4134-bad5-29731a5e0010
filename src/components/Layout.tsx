@@ -46,7 +46,7 @@ export default function Layout() {
       logo="Broadway Black Cars"
       ctaButton={{
         text: "Book Now",
-        href: "#contact",
+        href: "tel:6153392522",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>
