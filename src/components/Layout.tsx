@@ -43,7 +43,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarCentered
-      logo="Safin Nashville"
+      logo="Broadway Black Cars"
       ctaButton={{
         text: "Book Now",
         href: "#contact",
@@ -55,8 +55,8 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterMinimal
-      brand="Safin Luxury Car Service"
-      copyright="© 2024 Safin Nashville. All rights reserved."
+      brand="Broadway Black Cars"
+      copyright="© 2024 Broadway Black Cars. All rights reserved."
       socialLinks={[
         {
           icon: Instagram,
