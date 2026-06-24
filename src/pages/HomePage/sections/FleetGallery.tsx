@@ -46,7 +46,7 @@ export default function FleetGallery() {
         </div>
 
         <ScrollReveal variant="slide-up" delay={0.3}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8">
             <div className="w-full rounded-lg overflow-hidden shadow-2xl">
               <ImageOrVideo 
                 imageSrc="https://storage.googleapis.com/webild/users/user_3CUut8m98uxTpvwXUeqwcIrESO8/uploaded-1782339857241-1bschtwj.jpg" 
