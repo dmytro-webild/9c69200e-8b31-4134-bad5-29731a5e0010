@@ -48,7 +48,8 @@ export default function FleetGallery() {
         <ScrollReveal variant="slide-up" delay={0.3}>
           <div className="w-full rounded-lg overflow-hidden shadow-2xl">
             <ImageOrVideo 
-              imageSrc="https://picsum.photos/seed/48505342/1200/800" 
+              imageSrc="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=2070" 
+              alt="2025 Black Chevy Suburban"
               className="w-full h-[600px] object-cover" 
             />
           </div>
