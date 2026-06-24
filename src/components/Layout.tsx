@@ -67,6 +67,10 @@ export default function Layout() {
           href: "#",
         },
       ]}
+      ctaButton={{
+        text: "Text Broadway Black Cars Now",
+        href: "sms:6153392522"
+      }}
     />
       </SectionErrorBoundary>
     </StyleProvider>
