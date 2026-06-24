@@ -13,7 +13,8 @@ import TestimonialsSection from './HomePage/sections/Testimonials';
 import ContactSection from './HomePage/sections/Contact';
 
 
-import FleetGallerySection from './HomePage/sections/FleetGallery';export default function HomePage(): React.JSX.Element {
+import FleetGallerySection from './HomePage/sections/FleetGallery';
+import PricingSection from './HomePage/sections/Pricing';export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
@@ -27,6 +28,7 @@ import FleetGallerySection from './HomePage/sections/FleetGallery';export defaul
   <SocialProofSection />
 
   <TestimonialsSection />
+      <PricingSection />
 
   <ContactSection />
           <FleetGallerySection />
