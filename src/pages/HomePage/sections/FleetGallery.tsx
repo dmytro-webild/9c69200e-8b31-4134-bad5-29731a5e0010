@@ -45,18 +45,7 @@ export default function FleetGallery() {
           </ScrollReveal>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {images.map((img, idx) => (
-            <ScrollReveal variant="fade" key={idx} delay={0.1 * idx}>
-              <div className="relative aspect-video rounded-lg overflow-hidden card">
-                <ImageOrVideo
-                  imageSrc={img.src}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </ScrollReveal>
-          ))}
-        </div>
+
       </div>
     </section>
   );
