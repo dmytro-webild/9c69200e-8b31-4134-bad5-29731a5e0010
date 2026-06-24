@@ -46,12 +46,19 @@ export default function FleetGallery() {
         </div>
 
         <ScrollReveal variant="slide-up" delay={0.3}>
-          <div className="w-full rounded-lg overflow-hidden shadow-2xl">
-            <ImageOrVideo 
-              imageSrc="https://storage.googleapis.com/webild/users/user_3CUut8m98uxTpvwXUeqwcIrESO8/uploaded-1782339857241-1bschtwj.jpg" 
-              alt="2025 Black Chevy Suburban"
-              className="w-full h-[600px] object-cover" 
-            />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="w-full rounded-lg overflow-hidden shadow-2xl">
+              <ImageOrVideo 
+                imageSrc="https://storage.googleapis.com/webild/users/user_3CUut8m98uxTpvwXUeqwcIrESO8/uploaded-1782339857241-1bschtwj.jpg" 
+                className="w-full h-[600px] object-cover" 
+              />
+            </div>
+            <div className="w-full rounded-lg overflow-hidden shadow-2xl">
+              <ImageOrVideo 
+                imageSrc="https://storage.googleapis.com/webild/users/user_3CUut8m98uxTpvwXUeqwcIrESO8/uploaded-1782340026532-6u34v0ue.jpg" 
+                className="w-full h-[600px] object-cover" 
+              />
+            </div>
           </div>
         </ScrollReveal>
       </div>
