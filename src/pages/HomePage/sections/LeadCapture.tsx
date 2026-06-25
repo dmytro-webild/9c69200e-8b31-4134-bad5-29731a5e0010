@@ -16,7 +16,7 @@ export default function LeadCaptureSection() {
             <div className="flex flex-col items-center space-y-6">
               <Tag text="Book Your Chauffeur" />
               <TextAnimation
-                text="Ready to Experience Luxury?"
+                text="Text Broadway Black Cars Now"
                 variant="slide-up"
                 tag="h2"
                 gradientText={false}
@@ -28,7 +28,7 @@ export default function LeadCaptureSection() {
 
               <div className="mt-8">
                 <Button
-                  text="Text Us Now: 615-339-2522"
+                  text="Text Broadway Black Cars Now: 615-339-2522"
                   variant="primary"
                   href="sms:6153392522"
                 />
