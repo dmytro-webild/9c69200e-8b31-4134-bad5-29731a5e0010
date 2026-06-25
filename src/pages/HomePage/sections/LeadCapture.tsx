@@ -28,9 +28,9 @@ export default function LeadCaptureSection() {
 
               <div className="mt-8">
                 <Button
-                  text="Text Broadway Black Cars Now: 615-339-2522"
+                  text="Book Now"
                   variant="primary"
-                  href="sms:+16153392522" onClick={() => { window.location.href = 'sms:+16153392522'; }}
+                  href="sms:615-339-2522" onClick={() => { window.location.href = 'sms:615-339-2522'; }}
                 />
               </div>
             </div>
