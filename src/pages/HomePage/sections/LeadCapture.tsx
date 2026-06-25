@@ -9,9 +9,9 @@ export default function LeadCaptureSection() {
   const [email, setEmail] = useState('');
 
   return (
-    <div data-webild-section="lead-capture" id="lead-capture" className="relative w-full py-24 bg-background">
+    <div data-webild-section="lead-capture" id="lead-capture" className="relative w-full bg-background">
       <div className="w-content-width mx-auto">
-        <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
+        <div className="flex flex-col items-center text-center max-w-content-width mx-auto">
           <ScrollReveal variant="fade">
             <div className="flex flex-col items-center space-y-6">
               <Tag text="Book Your Chauffeur" />
@@ -30,7 +30,7 @@ export default function LeadCaptureSection() {
                 <Button
                   text="Text Broadway Black Cars Now: 615-339-2522"
                   variant="primary"
-                  href="sms:+16153392522" onClick={(e) => { e.preventDefault(); window.location.href = 'sms:+16153392522'; }}
+                  href="sms:+16153392522" onClick={() => { window.location.href = 'sms:+16153392522'; }}
                 />
               </div>
             </div>
