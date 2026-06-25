@@ -10,17 +10,14 @@ export default function ContactSection(): React.JSX.Element {
     <div id="contact" data-section="contact">
         <SectionErrorBoundary name="contact">
               <ContactCta
-          tag="Book Your Chauffeur"
-          text="Secure your private luxury car today. Experience the Broadway Black Cars difference."
-          primaryButton={{
-            text: "Text Broadway Black Cars Now",
-            href: "sms:+16155550123",
-          }}
-          secondaryButton={{
+        tag="Book Your Chauffeur"
+        text="Secure your private luxury car today. Experience the Broadway Black Cars difference. Call or text us at (615) 555-0123."
+        primaryButton={{"text":"Call or Text: (615) 555-0123","href":"sms:+16155550123"}}
+        secondaryButton={{
             text: "Email for Reservations",
             href: "mailto:reservations@safinnashville.com",
           }}
-        />
+      />
         </SectionErrorBoundary>
       </div>
   );
