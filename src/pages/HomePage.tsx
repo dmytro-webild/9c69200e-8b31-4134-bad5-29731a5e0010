@@ -8,10 +8,12 @@ import FleetGallerySection from './HomePage/sections/FleetGallery';
 import PricingSection from './HomePage/sections/Pricing';
 
 
-import LeadCaptureSection from './HomePage/sections/LeadCapture';export default function HomePage(): React.JSX.Element {
+import LeadCaptureSection from './HomePage/sections/LeadCapture';
+import PartnersSection from './HomePage/sections/Partners';export default function HomePage(): React.JSX.Element {
   return (
     <>
       <HeroSection />
+      <PartnersSection />
       <MetricsSection />
       <SocialProofSection />
       <TestimonialsSection />
