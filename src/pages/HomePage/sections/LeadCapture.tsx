@@ -30,7 +30,7 @@ export default function LeadCaptureSection() {
                 <Button
                   text="Text Broadway Black Cars Now: 615-339-2522"
                   variant="primary"
-                  href="sms:6153392522"
+                  href="sms:+16153392522" onClick={(e) => { e.preventDefault(); window.location.href = 'sms:+16153392522'; }}
                 />
               </div>
             </div>
